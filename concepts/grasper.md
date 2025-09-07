@@ -1,0 +1,29 @@
+-
+- **Input**: `questions.txt`(contains source links) + optional data/source files
+- This is the main entry point for the LLM data agent, containing user questions and any attached resources for analysis or scraping.
+-
+- 🔹 Block 2: Data Sourcing Agent
+  collapsed:: true
+	- **Input**: `questions.txt` as prompt to the LLM
+	- The LLM is instructed to generate Python code to fetch data from all mentioned sources.
+	- It should return a JSON object where:
+		- Keys are source identifiers or filenames
+		- Values include:
+			- `data-scraping-code`: Python code to download the data
+			- `verify-data-code`: Code to verify successful download
+			- `url` (optional): The data source URL
+	- 📦 Example JSON structure:
+		- source1:
+			- sourcename: `"example-source"`
+			- data-scraping-code: `"..."`
+			- verify-data-code: `"..."`
+			- url: `"https://example.com/data.csv"`
+		- source2:
+			- sourcename: `"example-site"`
+			- html: `"yes"`
+			- url: `"https://example.com"`
+	- Downloads should be saved in `../tmp/`
+		- If the folder already exists, create unique subfolders like `temp1`, `temp2`, etc.
+		- (Optionally use hashing for uniqueness)
+	- Asynchronous downloads should be handled safely using unique folders to avoid file conflicts.
+-
