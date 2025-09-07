@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86a0c5d32de758fb",
+        "id": "561e059c601bde51",
         "type": "tabs",
         "children": [
           {
-            "id": "ee488453f6e79867",
+            "id": "ccde6087c96100b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "concepts/linux-setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "linux-setup"
             }
           }
         ]
@@ -162,13 +166,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee488453f6e79867",
+  "active": "ccde6087c96100b2",
   "lastOpenFiles": [
-    "daily-learnings/dairy/2025-09-07.md",
     "Untitled.md",
+    "concepts/linux-setup.md",
+    "dairy/2025-09-07.md",
+    "concepts/grasper.md",
+    "README.md",
+    "daily-learnings/dairy/2025-09-07.md",
     "daily-learnings/concepts/MLT.md",
     "daily-learnings/concepts/grasper.md",
     "daily-learnings/concepts/linux configuration.md",
