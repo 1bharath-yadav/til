@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-learnings/concepts/llm prompts.md",
+                "file": "daily-learnings/concepts/MLT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm prompts"
+              "title": "MLT"
             }
           }
         ]
@@ -172,15 +172,15 @@
   },
   "active": "382c004e508709f2",
   "lastOpenFiles": [
-    "daily-learnings/concepts/linux configuration.md",
-    "daily-learnings/concepts/Katex-reference.md",
     "daily-learnings/concepts/grasper.md",
+    "daily-learnings/concepts/linux configuration.md",
+    "daily-learnings/concepts/llm prompts.md",
+    "daily-learnings/concepts/MLF.md",
+    "daily-learnings/concepts/Katex-reference.md",
     "daily-learnings/concepts/contents.md",
     "daily-learnings/dairy/2025-09-07.md",
-    "daily-learnings/concepts/MLF.md",
     "daily-learnings/concepts/MLT.md",
     "daily-learnings/concepts/Resourses.md",
-    "daily-learnings/concepts/llm prompts.md",
     "daily-learnings/concepts",
     "daily-learnings/conccepts",
     "daily-learnings/dairy/nextdata.md",
