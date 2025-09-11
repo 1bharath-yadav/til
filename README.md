@@ -1,1 +1,1 @@
-# things i learned
+# Things i learned
